@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mani Mekala | Resume Portfolio</title>
+<style>
+:root{--pink:#e75480;--dark:#28243a;--soft:#fff4f8;--muted:#686579;--line:#f1d8e3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--dark);line-height:1.65;background:#fff}
+header{background:linear-gradient(130deg,#fff0f6,#f4efff);padding:22px 7% 60px}
+nav{max-width:1050px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.brand{font-weight:800;color:var(--pink);font-size:1.15rem}nav a{color:var(--dark);text-decoration:none;margin-left:14px;font-size:.92rem}
+.hero{max-width:900px;margin:65px auto 0}.eyebrow{color:var(--pink);font-size:.8rem;font-weight:bold;letter-spacing:.12em;text-transform:uppercase}
+h1{font-size:clamp(2.5rem,7vw,4.5rem);line-height:1.08;margin:12px 0}h1 span{color:var(--pink)}
+.hero p{max-width:650px;color:var(--muted);font-size:1.08rem}
+.btn{display:inline-block;background:var(--pink);color:white;text-decoration:none;border-radius:10px;padding:12px 18px;margin:10px 8px 0 0;font-weight:bold;border:1px solid var(--pink)}
+.btn.alt{background:white;color:var(--pink)}
+main{max-width:1000px;margin:auto;padding:18px 7% 65px}section{padding:35px 0;scroll-margin-top:20px}
+h2{font-size:1.8rem;margin:0 0 12px}.lead{color:var(--muted);max-width:780px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{border:1px solid var(--line);border-radius:16px;padding:22px;background:white;box-shadow:0 8px 24px #3420390b}
+.card h3{margin-top:0}.chips{display:flex;flex-wrap:wrap;gap:9px}.chip{padding:7px 12px;border-radius:30px;background:var(--soft);color:#a82e5b;font-size:.92rem}
+.label{font-weight:bold;color:var(--pink)}.note{font-size:.9rem;color:var(--muted)}
+footer{text-align:center;background:var(--soft);padding:24px;color:var(--muted)}
+@media(max-width:560px){header{padding-bottom:40px}.hero{margin-top:42px}nav a{margin:0 9px 0 0}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+  <div class="brand">Mani Mekala</div>
+  <div><a href="#about">About</a><a href="#skills">Skills</a><a href="#project">Project</a><a href="#resume">Resume</a><a href="#contact">Contact</a></div>
+</nav>
+<div class="hero">
+  <div class="eyebrow">BCA Student · Aspiring IT Professional</div>
+  <h1>Hello, I'm <span>Mani Mekala.</span></h1>
+  <p>I am a BCA student interested in Python, Artificial Intelligence, and Deep Learning. I enjoy learning technology and building useful projects as I prepare for a career in IT.</p>
+  <a class="btn" href="#project">Explore My Project</a>
+  <a class="btn alt" href="resume.pdf" target="_blank" rel="noopener">View My Resume</a>
+</div>
+</header>
+<main>
+<section id="about">
+<h2>About Me</h2>
+<p class="lead">I am currently studying BCA (3rd year) at Arumugam Palaniguru Arts and Science College for Women, Chatrapatti, Rajapalayam. I am building my technical knowledge and preparing for entry-level opportunities in the IT industry.</p>
+</section>
+<section id="skills">
+<h2>Technical Skills</h2>
+<p class="lead">Keep only the skills you have studied and can confidently explain in an interview.</p>
+<div class="chips"><span class="chip">Python — learning</span><span class="chip">HTML — learning</span><span class="chip">CSS — learning</span><span class="chip">Java — coursework</span><span class="chip">SQL / DBMS — coursework</span></div>
+</section>
+<section id="project">
+<h2>Featured Project</h2>
+<div class="card">
+<h3>AI-Generated Image Detection Using Deep Learning</h3>
+<p>A final-year project concept designed to classify an uploaded image as real or AI-generated using a deep-learning model.</p>
+<p><span class="label">Planned tools:</span> Python, TensorFlow, OpenCV, and the CIFAKE dataset.</p>
+<p class="note">Update this section with the actual features, screenshots, and results after implementation. Do not claim results you have not measured.</p>
+</div>
+</section>
+<section id="resume">
+<h2>My Resume</h2>
+<p class="lead">Use the buttons to view or download the attached resume PDF.</p>
+<a class="btn" href="resume.pdf" target="_blank" rel="noopener">View Resume (PDF)</a>
+<a class="btn alt" href="resume.pdf" download>Download Resume</a>
+</section>
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p><span class="label">Email:</span> ADD YOUR PROFESSIONAL EMAIL</p>
+<p><span class="label">GitHub:</span> ADD YOUR GITHUB PROFILE LINK</p>
+<p class="note">Replace these placeholders before publishing. For privacy, do not add your home address or sensitive personal details.</p>
+</div>
+</section>
+</main>
+<footer>© 2026 Mani Mekala · Personal Resume Portfolio</footer>
+</body>
+</html>
